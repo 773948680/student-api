@@ -30,7 +30,7 @@ class StudentServiceTest {
 
         List<Student> result = service.findAll();
 
-        assertEquals(1, result.size());
+        assertEquals(1333, result.size());
         verify(repository).findAll();
     }
 
